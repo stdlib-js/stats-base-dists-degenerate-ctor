@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.Degenerate;
+})();
 })();
 </script>
 ```
@@ -318,6 +320,7 @@ y = degenerate.quantile( 0.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var degenerate = new Degenerate( 0.5 );
 
@@ -330,6 +333,7 @@ var s2 = degenerate.variance;
 var y = degenerate.cdf( 2.0 );
 // returns 1.0
 
+})();
 })();
 </script>
 </body>
