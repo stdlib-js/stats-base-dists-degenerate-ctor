@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-ctor@esm/index.mjs';
+import Degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-ctor@v0.2.1-esm/index.mjs';
 ```
 
 #### Degenerate( \[mu] )
@@ -304,7 +304,7 @@ y = degenerate.quantile( 0.9 );
 <body>
 <script type="module">
 
-import Degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-ctor@esm/index.mjs';
+import Degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-ctor@v0.2.1-esm/index.mjs';
 
 var degenerate = new Degenerate( 0.5 );
 
