@@ -46,7 +46,7 @@
     "@stdlib/stats-base-dists-degenerate-logpmf": "^0.2.2",
     "@stdlib/stats-base-dists-degenerate-mean": "^0.2.2",
     "@stdlib/stats-base-dists-degenerate-median": "^0.2.2",
-    "@stdlib/stats-base-dists-degenerate-mgf": "^0.2.1",
+    "@stdlib/stats-base-dists-degenerate-mgf": "^0.2.2",
     "@stdlib/stats-base-dists-degenerate-mode": "^0.2.2",
     "@stdlib/stats-base-dists-degenerate-pdf": "^0.2.2",
     "@stdlib/stats-base-dists-degenerate-pmf": "^0.2.2",
