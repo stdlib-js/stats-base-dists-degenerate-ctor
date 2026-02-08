@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-degenerate-ctor/tags). For example,
+
+```javascript
 import Degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-ctor@v0.2.3-esm/index.mjs';
 ```
 
@@ -304,7 +309,7 @@ y = degenerate.quantile( 0.9 );
 <body>
 <script type="module">
 
-import Degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-ctor@v0.2.3-esm/index.mjs';
+import Degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-ctor@esm/index.mjs';
 
 var degenerate = new Degenerate( 0.5 );
 
